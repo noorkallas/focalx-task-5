@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(135deg, #2a2a72 0%, #009ffd 100%);
+  font-family: "Arial", sans-serif;
+}
+
+/* Glass button style */
+.glass-btn {
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  padding: 15px;
+  margin: 5px;
+  font-size: 1.5rem;
+  color: #fff;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), inset 0 1px rgba(255, 255, 255, 0.5);
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.glass-btn:hover {
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2), inset 0 1px rgba(255, 255, 255, 0.7);
+}
+
+.calculator {
+  max-width: 400px;
+  margin: auto;
+  border-radius: 16px;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+}
+
+#calc-display {
+  font-size: 2rem;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  border: none;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+  padding: 20px;
+}
